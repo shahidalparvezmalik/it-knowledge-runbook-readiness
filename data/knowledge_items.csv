@@ -1,0 +1,6 @@
+knowledge_id,title,owner,owner_status,service,service_status,last_reviewed,review_interval_days,purpose,preconditions,steps,validation,rollback_or_escalation,audience,risk_level
+KB-001,Mail queue backlog,Messaging Team,confirmed,Email Service,confirmed,2026-10-20,180,Restore queued mail,Alert confirmed,Check queue depth and worker state,Confirm queue drains,Escalate if queue grows,on-call,high
+KB-002,VPN access request,Network Team,unconfirmed,Remote Access,confirmed,2025-10-01,365,Resolve approved VPN access,Manager approval present,Check account group and client version,User confirms connection,Escalate to network lead,service desk,medium
+KB-003,Database failover,Platform Team,confirmed,Core Database,unconfirmed,2026-03-01,180,Guide failover assessment,Incident commander assigned,Validate replica lag and status,Application owner confirms service,Follow approved recovery plan,DBA on-call,high
+KB-004,Printer setup,,,,,2026-09-01,365,Configure a supported printer,Device is on approved network,Install approved driver,Print test page,Contact endpoint team,service desk,low
+KB-005,Identity lockout,Identity Team,confirmed,Directory Service,confirmed,2026-11-05,90,Restore authorized user access,Identity verified,Review lockout source and policy,User signs in,Escalate suspicious activity,service desk,high
